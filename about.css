@@ -1,0 +1,28 @@
+.main-title{
+    text-align: center;
+    margin: 80px;
+}
+
+.introduction{
+    max-width: 1200px;
+    margin: 0 auto 100px;
+    padding: 0 40px;
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.introduction img{
+    width: 50%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.introduction p{
+    width: 50%;
+    font-size: 19px;
+    line-height: 1.8;
+    margin: 0;
+}

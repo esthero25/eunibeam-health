@@ -62,3 +62,60 @@ button {
 button:hover {
     background: #0f143a;
 }
+
+.contact{
+    text-align: center;
+}
+
+.icon{
+    width: 80px;
+    height: 80px;
+    background: #151A4D;
+    border-radius: 50%;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.icon i{
+    color: #fff;
+    font-size: 32px;
+}
+
+.contact-row{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 33.33%;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.card:nth-child(2){
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+}
+
+.location-title{
+    text-align: center;
+}
+
+.location-section{
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.location-section iframe{
+    width: 100%;
+    max-width: 1200px;
+    height: 450px;
+    border-radius: 10px;
+}
