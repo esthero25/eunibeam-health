@@ -20,9 +20,31 @@
     border-radius: 18px;
 }
 
-.introduction p{
+.text-content{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-content p{
     font-size: 19px;
     line-height: 1.8;
     margin: 0;
 }
+
+.text-content button{
+    background-color: #151A4D;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+
+.text-content button a{
+    color: #fff;
+     font-weight: bold;
+    text-decoration: none;
+    font-family: "Jost", sans-serif;
+}
+

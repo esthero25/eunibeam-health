@@ -8,6 +8,7 @@ body {
 nav {
     background: #151A4D;
     padding: 15px;
+    position: relative;
 }
 
 .menu {
@@ -27,6 +28,52 @@ nav {
     transition: 0.3s;
 }
 
+.logo {
+    position: absolute;
+    left: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+footer {
+    background-color: #151A4D;
+    padding: 35px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-socials a,
+.footer-logo,
+.footer-copy {
+    color: white;
+}
+
+.footer-socials a {
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-copy {
+    text-align: right;
+    margin: 0;
+    line-height: 1.5;
+}
 
 
 /* Tablet */
@@ -125,3 +172,4 @@ nav {
   inset: 0;
   background: rgba(0, 0, 0, 0.4);
 }
+
