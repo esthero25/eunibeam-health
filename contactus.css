@@ -121,3 +121,65 @@ button:hover {
     height: 450px;
     border-radius: 10px;
 }
+
+/* Tablet */
+@media (max-width: 900px) {
+    .contact-row {
+        flex-direction: column;
+        gap: 40px;
+        padding: 0 25px;
+    }
+
+    .card {
+        width: 100%;
+        padding: 0;
+    }
+
+    .card:nth-child(2) {
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #aaa;
+        border-bottom: 1px solid #aaa;
+        padding: 35px 0;
+    }
+
+    .contact-container {
+        margin: 60px auto;
+    }
+
+    .location-section iframe {
+        width: 90%;
+        height: 380px;
+    }
+}
+
+/* Phone */
+@media (max-width: 600px) {
+    .contact h1 {
+        font-size: 2rem;
+    }
+
+    .contact-container {
+        width: calc(100% - 30px);
+        padding: 22px;
+        margin: 45px auto;
+    }
+
+    .icon {
+        width: 65px;
+        height: 65px;
+    }
+
+    .icon i {
+        font-size: 26px;
+    }
+
+    .location-section {
+        margin-top: 50px;
+    }
+
+    .location-section iframe {
+        width: 92%;
+        height: 300px;
+    }
+}

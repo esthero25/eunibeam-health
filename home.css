@@ -32,9 +32,54 @@
   border-radius: 5px;
 }
 
-@media (max-width: 768px) {
+/* Tablet */
+@media (max-width: 900px) {
+  .about {
+    padding: 60px 6%;
+  }
+
   .about-content {
     flex-direction: column;
     text-align: center;
+    gap: 35px;
+  }
+
+  .about-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .about-text h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Phone */
+@media (max-width: 600px) {
+  .about {
+    padding: 40px 20px;
+  }
+
+  .about-image img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .about-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-text p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .about-btn {
+    display: inline-block;
+    width: 100%;
+    max-width: 220px;
+    text-align: center;
+    padding: 12px 18px;
   }
 }

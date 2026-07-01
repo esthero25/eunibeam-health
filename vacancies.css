@@ -140,3 +140,93 @@ h1, p{
     text-transform: uppercase;
     font-weight: bold;
 }
+
+
+/* Tablet */
+@media (max-width: 900px) {
+    .intro {
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 25px;
+        margin-bottom: 60px;
+    }
+
+    .intro img,
+    .content {
+        width: 100%;
+    }
+
+    .intro img {
+        height: 350px;
+    }
+
+    .roles {
+        padding: 40px 25px;
+    }
+
+    .role-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .role-image,
+    .role-text {
+        width: 100%;
+    }
+
+    .role-image img {
+        height: 380px;
+    }
+}
+
+/* Phone */
+@media (max-width: 600px) {
+    .intro {
+        padding: 0 18px;
+        margin-bottom: 40px;
+    }
+
+    .intro img {
+        height: 260px;
+    }
+
+    .content p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .role-tabs {
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .role-tab {
+        width: 100%;
+        max-width: 300px;
+        padding: 14px 20px;
+    }
+
+    .roles {
+        padding: 30px 18px;
+    }
+
+    .role-image img {
+        height: 280px;
+    }
+
+    .role-text h2 {
+        font-size: 23px;
+    }
+
+    .role-text p,
+    .role-text li {
+        font-size: 15px;
+    }
+
+    .role-btn {
+        width: 100%;
+        text-align: center;
+        padding: 14px 20px;
+    }
+}

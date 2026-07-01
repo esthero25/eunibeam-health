@@ -173,3 +173,158 @@ footer {
   background: rgba(0, 0, 0, 0.4);
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Laptop / smaller desktop */
+@media (max-width: 1200px) {
+    .logo {
+        left: 25px;
+        font-size: 20px;
+    }
+
+    .menu {
+        justify-content: flex-end;
+        padding-left: 220px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    nav {
+        padding: 20px;
+    }
+
+    .logo {
+        position: static;
+        display: block;
+        transform: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .menu {
+        padding-left: 0;
+        margin: 0;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .menu li a {
+        font-size: 18px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .footer-copy {
+        text-align: center;
+    }
+
+    .slideshow {
+        height: 75vh;
+    }
+
+    .overlay {
+        left: 6%;
+        right: 6%;
+        max-width: 90%;
+    }
+
+    .overlay h1 {
+        font-size: 2.3rem;
+    }
+
+    .overlay p {
+        font-size: 1.05rem;
+    }
+}
+
+/* Phone */
+@media (max-width: 600px) {
+    nav {
+        padding: 18px 10px;
+    }
+
+    .logo {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        padding: 0;
+    }
+
+    .menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu li a {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+
+    .slideshow {
+        height: 70vh;
+    }
+
+    .overlay {
+        left: 20px;
+        right: 20px;
+        max-width: none;
+    }
+
+    .overlay h1 {
+        font-size: 1.8rem;
+    }
+
+    .overlay p {
+        font-size: 0.95rem;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn {
+        text-align: center;
+        padding: 10px 18px;
+    }
+
+    footer {
+        padding: 25px 15px;
+    }
+
+    .footer-socials {
+        gap: 18px;
+    }
+
+    .footer-logo {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .footer-copy {
+        font-size: 14px;
+    }
+}

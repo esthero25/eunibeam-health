@@ -48,3 +48,64 @@
     font-family: "Jost", sans-serif;
 }
 
+/* Tablet */
+@media (max-width: 900px) {
+
+    .main-title {
+        margin: 60px 20px;
+    }
+
+    .introduction {
+        flex-direction: column;
+        gap: 35px;
+        padding: 0 25px;
+        margin-bottom: 60px;
+    }
+
+    .introduction img,
+    .text-content {
+        width: 100%;
+    }
+
+    .introduction img {
+        height: 350px;
+    }
+
+    .text-content {
+        text-align: center;
+        align-items: center;
+    }
+
+    .text-content button {
+        align-self: center;
+    }
+}
+
+/* Phone */
+@media (max-width: 600px) {
+
+    .main-title {
+        margin: 40px 15px;
+        font-size: 2rem;
+    }
+
+    .introduction {
+        padding: 0 18px;
+        margin-bottom: 40px;
+    }
+
+    .introduction img {
+        height: 260px;
+    }
+
+    .text-content p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .text-content button {
+        width: 100%;
+        max-width: 220px;
+        padding: 12px 20px;
+    }
+}
