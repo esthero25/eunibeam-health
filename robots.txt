@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eunibeamhealthcare.co.uk/sitemap.xml
