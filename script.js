@@ -1,6 +1,5 @@
-
 //slideshow animation + functionality
-
+//TODO: Add functions
 const slides = document.querySelectorAll(".slide");
 let current = 0;
 
