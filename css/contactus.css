@@ -1,3 +1,10 @@
+.privacy{
+    color: #151A4D;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
 .contact-container {
     background: #fff;
     padding: 30px;

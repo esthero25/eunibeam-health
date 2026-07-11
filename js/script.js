@@ -14,7 +14,7 @@ setInterval(() => {
 // role tabs functionality
 const roleData = {
     senior: {
-        image: "images/seniorcareassistance-1.jpg",
+        image: "../images/seniorcareassistance-1.jpg",
         title: "What is a Senior Care Assistant?",
         description: "A senior care assistant is a professional who provides support and assistance to elderly individuals, typically within their homes, assisted living facilities, or nursing homes.",
         list: [
@@ -29,7 +29,7 @@ const roleData = {
     },
 
     social: {
-        image: "images/socialcareworker-1.jpg",
+        image: "../images/socialcareworker-1.jpg",
         title: "What is a Social Care Worker?",
         description: "A social care worker is a professional who provides support, assistance, and care to individuals in need, such as the elderly, people with disabilities, those with mental health issues, and vulnerable individuals.",
         list: [

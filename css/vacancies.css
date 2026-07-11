@@ -2,6 +2,10 @@ h1, p{
     text-align: center;
 }
 
+.subtitle{
+    margin-top: -20px;
+}
+
 .intro{
     max-width: 1200px;
     margin: 0 auto 100px;
